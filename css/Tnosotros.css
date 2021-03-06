@@ -1,0 +1,164 @@
+body{
+    font-family: Arial, Helvetica;
+    font-family:serif;
+    background: white;
+    padding-top: 120px;
+    font-size: 1.2rem;
+    margin: 0%;
+    background-color: darkgrey;
+    }
+    h1{
+        width: 100%;
+     height:125px;
+     background:darkcyan ;
+    text-align: center;
+    position: fixed;
+    top: -3%;
+    overflow:hidden;
+    transition: all 0.5s ease;
+    color: white;
+    line-height:150px;
+    margin: 0%;
+    
+    }
+    .menu{
+     list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 100%;
+    max-width: 10000px;
+    margin: auto;
+    display: inline-block;
+    position: fixed;
+    top: 16%;
+    font-size: 16px;
+
+   
+    }
+    .menu li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+    }
+    .menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    
+    
+    footer{
+       
+        background: #000;
+        margin: 0 auto;
+        color: #fff;
+        text-align: center;
+        padding: 30px;
+        box-sizing: border-box;
+        font-family: arial;
+        font-size: 18px;
+        
+    }
+
+
+    .registro{
+    
+    
+    width:460px;
+    
+    padding: 80px;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 1%;
+    font-family:sans-serif ;
+    
+    }
+    .registro h5{
+         
+        font-size: 20px;
+        margin: 50px;
+        margin-bottom: 1px;
+        margin-top: -10px;
+        font-family:sans-serif ;
+        }
+
+       
+        .registro h3{
+           
+            margin: 100px;
+            margin-bottom: 3px;
+            margin-top: -10px;
+            font-family:sans-serif ;
+            font-size: 15px;
+        }
+
+       
+    
+        .c{
+            margin: 60px;
+            width:300px;
+             padding: 8px;
+             background-color: ivory;
+            border-radius: 10px; 
+         margin-bottom: 16px;
+         border:2px solid #1f53c5 ;
+         margin-top: 0%;
+         font-family:sans-serif ;
+        }
+    
+        .c:hover{
+            background: lightseagreen;
+            
+        
+        }
+    
+        .e{
+           
+            background-color :ivory;
+            border-radius: 10px; 
+            margin-bottom:3%;
+            margin-top:3%;
+            border:1px solid #1f53c5 ;
+            font-family:sans-serif ;
+            padding: 5px;
+            text-align: center;
+            
+        }
+        .e:hover{
+            background: lightseagreen;
+            font-family:sans-serif ;
+        }
+    
+        .saludo{
+            float: left;
+           margin: auto;
+            margin-top: 10%;
+    
+        }
+       
+        
+        .f{
+            margin: 60px;
+            width: 320px;
+             padding: 8px;
+             background-color: ivory;
+            border-radius: 10px; 
+         margin-bottom: 0px;
+         border:2px solid #1f53c5 ;
+         margin-top: 0%;
+         font-family:sans-serif ;
+        }
+        table {
+            border:2px solid #1f53c5 ;
+        }
+        footer{
+   
+            background: #000;
+            margin: 0 auto;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            box-sizing: border-box;
+            font-family: arial;
+            font-size: 18px;
+        }

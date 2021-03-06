@@ -1,0 +1,53 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../IMG/unnamed.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+}
+.c{
+    background-color:rgb(223, 253, 253);
+    font-family:sans-serif ;
+    border:4px solid cadetblue;
+    margin-bottom: 5px;
+    margin-top: 5px; 
+    border-radius: 5px;
+    padding: 10px;
+    
+    
+}
+
+.c:hover{
+background:url(../IMG/teamo.jpg);
+}
+.f2{
+    padding: 10px;
+    
+    color:black;
+    border:3px solid darkcyan;
+    margin-bottom: -150px ;
+}
+.form h1{
+    font-size:sans-serif  ;
+}
+.F{
+    background-color:rgb(223, 253, 253);
+    font-family:sans-serif ;
+    border:4px solid black ;
+    margin-bottom: 50px;
+    margin-top: 5px; 
+    border-radius: 5px;
+    border:2px solid black;
+    font-size:sans-serif  ;
+    background: url(../IMG/janelle-soto-Hq7d3HPrWL8-unsplash.jpg);
+}
+.f1{
+    padding: 10px;
+    background-color:rgb(5, 172, 238)  ;
+    color:black;
+    border:3px solid darkcyan;
+    margin-bottom: -150px 
+}

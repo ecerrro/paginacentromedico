@@ -1,0 +1,47 @@
+<!DOCTYPE html > 
+<html lang="en">   
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Document</title>
+<link rel="stylesheet" href="css/estiloLogin.css">
+<script src="js/datos.js"></script>
+</head>
+<body onload="nobackbutton()" >
+
+       <center>
+     <table height="500" width="900" border="0">
+        <tr >
+         <th>
+                <div class="formulario" id="fr" >
+                <form class="f1" >
+                <h1><i>Login</i> </h1><br>  
+                <label>Usuario</label><br><br>
+                <input class="c" id="txt-user" type="text" placeholder="Digite Usuario" ><br><br>
+                <label>Contraseña</label><br><br>
+                <input class="c" id="txt-contraseña" type="text" placeholder="Digite Contrseña"><br><br>
+                <input class="F" id="bt-inicio" type="button" onclick="validar()" value="iniciar Seccion">
+                </div><br><br>
+              </form>
+         </th>
+         <th >
+                <div class="Registro" id="frr" > 
+              <form class="f2"> 
+                <h1><i>Formulario de registro</i></h1><br>
+                <label>Usuario</label><br><br>
+                <input class="c" id="txt-userr" type="text" placeholder="Digite Usuario" ><br><br>
+                <label>Contraseña</label><br><br>
+                <input class="c" id="txt-contraseñar" type="text" placeholder="Digite Contrseña"><br><br>
+                <input class="F" id="bt-inicior" type="button" onclick="registrar()" value="Guardar">
+                </div><br><br>
+              </form>
+         </th>
+        </tr>
+
+     </table>
+    </center>
+    
+</body>
+</html>
+
+

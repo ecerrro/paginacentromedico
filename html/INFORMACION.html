@@ -1,0 +1,300 @@
+<!DOCTYPE html > 
+<html lang="en">   
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> INFORMACION</title>
+<link rel="stylesheet" href="../css/informacion.css">
+</head>
+
+<body>
+    <center><h1> BIENVENIDO AL CENTRO MEDICO ECOSALUD </h1></center>
+    <nav>
+    <ul class=" menu ">
+        
+        <li><a href="inicio.html">INICIO</a></li>
+        <li><a href="CITA.html">CITA LAVORATORIO/ AYUDA AL USUARIO</a></li>
+        <li><a href="servicio1.html">SERVICIO</a></li>
+        <li><a href="INFORMACION.html">INFORMACION</a></li>
+        <li><a href="../contactanos.html">CONTACTO</a></li>
+        <li><a href="sucursal.html">SUCURSALES</a></li>
+        <li><a href="Tnostros.html">TRABJA CON NOSOTROS</a></li>
+
+    </ul>
+    </nav>
+    
+    <img src="../img copy/img8.jpg.png">
+    <main class="fa">
+        <div class="farmacia">
+    <h3> FARMACIA</h3>
+    <p> 
+        El servicio cuenta con un servicio altamente calificado, comprometido con el mejoramiento de la calidad de vida de las personas, mediante la creación de soluciones integrales en el suministro de medicamentos y otras tecnologías en salud. Entre los servicios que prestamos se encuentran:</p>
+        <ol type="1"> 
+            <li>Dispensación y distribución de medicamentos por dosis unitarias</li>
+            <li>Ajuste de dosis y adecuación de medicamentos a través de la Central de mezclas parenteral certificada por el INVIMA</li>
+            <li>Programa de Tecno vigilancia con el fin de detectar y vigilar las reacciones adversas asociadas al uso de dispositivos médicos</li>
+            <li>Programa de Farmacovigilancia con el fin de detectar y vigilar las reacciones adversas asociadas al uso de medicamentos</li>
+          
+        </ol>
+        </div>
+    </main>
+    
+    
+
+           <div class="container">
+
+            <h2>Si desea solicitar domicilio de la farmacia, por favor llenar el siguiente formulario:</h2>
+    
+            <form>
+                <div class="form-group">
+                    <label for="txtnombre">Nombre</label><br>
+                    <input type="text" class="form-control" id="txtnombre" placeholder="escriba sus nombres completo">
+                </div>
+                <div class="form-group">
+                    <label for="txtapellido">Apellidos</label><br>
+                    <input type="text" class="form-control" id="txtapellido" placeholder="escriba sus apellidos completo">
+                </div>
+    
+                <div class="form-group">
+                    <label for="txtfecha">Fecha de nacimiento</label><br>
+                    <input type="date" class="form-control" id="txtfecha" placeholder="escriba la fecha">
+                </div>
+    
+                <div class="form-group">
+                    <label for="txtdocumento">Numero de identificacion</label><br>
+                    <input type="number" class="form-control" id="txtdocumento" placeholder="escriba su numero de identificacion">
+             
+                </div>
+    
+                <div class="form-group">
+                    <label for="txtedad">Edad</label><br>
+                    <input type="number" class="form-control" id="txtedad" placeholder="escriba su edad">
+             
+                </div>
+    
+                <div class="form-group">
+                    <label for="txtgenero">Genero</label><br>
+                    <input type="text" class="form-control" id="txtgenero" placeholder="escriba su Genero">
+             
+                </div>
+    
+                <div class="form-group">
+                    <label for="txttelefono">Telefono</label><br>
+                    <input type="number" class="form-control" id="txttelefono" placeholder="escriba su numero de telefono">
+             
+                </div>
+    
+                
+                <div class="form-group">
+                    <label for="txtemail">Email</label><br>
+                    <input type="text" class="form-control" id="txtemail" placeholder="escriba su email">
+             
+                </div>
+    
+                <div class="form-group">
+                    <label for="txtdepartamento">Departamento</label><br>
+                    <input type="text" class="form-control" id="txtdepartamento" placeholder="escriba el departamento">
+             
+                </div>
+    
+                <div class="form-group">
+                    <label for="txtciudad">Ciudad</label><br>
+                    <input type="text" class="form-control" id="txtciudad" placeholder="escriba la ciudad">
+             
+                </div>
+    
+                <div class="form-group">
+                    <label for="txtdireccion">Direccion</label><br>
+                    <input type="text" class="form-control" id="txtdireccion" placeholder="escriba su direccion">
+             
+                </div>
+
+                <div class="form-group">
+                    <label for="">Codigo postal</label><br>
+    
+                    <input
+                      class="form-control" type="number" name="codigopostal" id="codigopostal" placeholder="Ingrese su codigo postal"/>
+             
+                </div>
+
+                <div class="form-group">
+                    <label for="txtm">Medicamento</label><br>
+                    <input type="text" class="form-control" id="txtm" placeholder="nombre del medicamento">
+                </div>
+    
+                <div class="form-group">
+                    <label for="">Unidades del medicamento</label><br>
+    
+                    <input
+                      class="form-control" type="number" name="unidades" id="unidades" placeholder="Ingrese las unidades del medicamento"/><br>
+             
+                </div>
+
+             
+
+                <button type="button" class="f" id="btnGuardar">guardar</button>
+    
+            </form>
+    
+        </div>
+    
+        <main class="main">
+            <div class="container">
+                <h2> USUARIOS</h2>
+                <button onclick="ocultarymostrar()" class="f">Ocultar/Mostrar</button>
+        </div>
+        </main> 
+    
+    
+        <main class="tabla">
+            <div class="main-container">
+    
+            <table  id="tablaUsuario" width="200"  height="200">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>fecha de nacimiento </th>
+                    <th>documento</th>
+                    <th>edad</th>
+                    <th>genero</th>
+                    <th>telefono</th>
+                    <th>email</th>
+                    <th>departamento</th>
+                    <th>ciudad</th>
+                    <th>direccion</th>
+                    <th>codigo postal</th>
+                    <th>nombre del medicamento</th>
+                    <th>unidades</th>
+                   
+                </tr>
+            </thead>
+    
+            <tbody>
+    
+            </tbody>
+    
+            </table>
+        
+    
+        </div>
+        </main>
+
+        
+
+    <img src="../img copy/img9.jpg.png">
+
+    <main class="main">
+        <div class="container">
+            
+          
+            <a href="https://es.wikipedia.org/wiki/Unidad_de_cuidados_intensivos"><h2> Unidad de cuidados de intensivos adultos</h2></a> 
+           <p> el paciente cuenta con Los cuidados Durante su ESTANCIA y la asistencia del personal médico y paramédico especializado en el cuidado crítico 24 HORAS</p>
+
+        </div>
+    </main>
+
+    <main class="tabla">
+        <div class="main-container">
+       <table border="1">
+           <tr> <!-- fila-->
+       <th>INFORME MÉDICO</th> <!-- columna-->
+       <th> HORARIO DE VISITA</th>
+  
+           </tr>
+       <tr>
+       <td rowspan="2">LUNES A VIERNES 10 AM Y EN LA TARDE AL FINALIZAR </td>
+       <td > LUNES A VIERNES 11:00 a.m – 1:00 p.m</td>
+       </tr>
+       <tr>
+           <td> SABADO A DOMINGO Y DIAS FESTIVOS DE 2:00 p.m - 4:00 p.m</td> 
+       </tr>
+    
+  
+       </table>
+       </div>
+       </main>
+
+     
+       <img src="../img copy/img10.jpg" height="580">
+
+       <main class="lis">
+        <div class="lista">
+            <h2>Cinco (5) familiares por paciente</h2>
+            <p>La visita podrá ser interrumpida debido a Situaciones como: ingreso de pacientes, Episodios críticos en paciente, realización de Procedimiento o estudios de apoyo diagnóstico u otras consideraciones importantes que determine el personal médico.</p>
+       
+           <ul>
+               <li> RECOMENDACIONES</li>
+                   <ul>
+                       <li>Al ingresar informe sus números telefónicos del contacto para comunicarnos en caso necesario. No debe traer objetos personales de valor a la visita como: Celulares, gafas, cámaras fotográficas, etc.</li><br>
+                   </ul>
+
+                   <li> Insumos de aseo personal que debe traer:</li>
+                   <ul>
+                       <ol type="1">
+                        <li>Jabón de baño. </li>
+                        <li> Shampoo y acondicionador sobre</li>
+                        <li> Cepillo, crema y enjuague bucal.</li>
+                        <li> Crema hidratante para el cuerpo</li>
+                        <li> Un par de medias., 2 almohadas</li>
+                        <li> Un desodorante</li>
+                        <li> Máquina de afeitar (paciente masculino).</li>
+                        <li> Paños desechables TENA SLIM grande</li>
+                        <li> Pañitos húmedos</li>
+                        <li> Crema antipañalitis (Desitin, Multilin, Crema cero).</li>
+                        <li> Colonia suave</li>
+                        <li> Pacientes ventilados enjuague bucal con Clorhexidina </li>
+                        <li> 1 FOTOCOPIAS DE LA CÉDULA</li><br> 
+                       </ol>
+                   </ul>
+
+                   <li> La institución no se hace responsable por la Perdida de objetos personales.</li>
+                   <ul>
+                       <li> Al ingresar debe: retirarse anillos, pulseras Cadenas, reloj etc., Lavarse las manos antes y Después de su visita y atender las instrucciones del personal de enfermería</li>
+                       <li> Durante la visita interactúe con el personal médico con el objeto de resolver las inquietudes respecto al estado clínico y tratamiento del paciente.</li>
+                       <li> La información sobre el estado clínico del paciente será suministrada por el personal médico, de manera presencial y no vía telefónica.<br><br><br>
+
+                    </li>
+                   
+                    </ul>
+           </ul> 
+        </div>
+       </main>
+       <img src="../img copy/img11.jpg.png">
+
+       <main class="u">
+        <div class="uci">
+            <table border="1">
+                <tr> <!-- fila-->
+            <th> <a href="https://kidshealth.org/es/parents/nicu-caring-esp.html#:~:text=UCIN%20son%20las%20siglas%20de,que%20siguen%20a%20su%20nacimiento."> UCI NEONTAL</a></th> <!-- columna-->
+            <th> HORARIO</th>
+       
+                </tr>
+            <tr>
+            <td rowspan="2"> Se prestan los servicios las 24 horas de  Uci neo intensiva, intermedia y cuidado básico; Se cuenta con <a href="https://es.wikipedia.org/wiki/M%C3%A9todo_madre_canguro"><b>PLAN CANGURO </b></a> este de la mano de Psicología y trato humanizado los horarios son puertas abiertas las 24 horas y deben traer los padres siempre que vengan,  paños desechables, crema y pañitos húmedos, además de una excelente actitud con mucho amor para impregnar a los bebes.</td>
+            <td > visita de lunes a domingo</td>
+            </tr>
+            <tr>
+                <td ><b>LOS JUEVES EN LA MAÑANA NO HAY VISITA por cuestiones de asepsia, pero después de las 2 pm se atiende normal.</b></td> 
+            </tr>
+            
+       
+            </table><br><br><br>
+
+        </div>
+       </main>
+
+       <script src="../js/medicamento.js"></script>
+       <script src="../js/medicamneto2.js"></script>
+       
+
+<!-- etiqueta para hacer el pie de pagina-->
+       <footer>
+        Derechos Reservados 2020<br>
+        Diseñado por: Evelyn Cerro y Fabio Mercado<br>
+        Email: bienestarsalud@ecosalud.co<br>
+        www.ecosalud.com
+    
+    </footer>
+</body>
+</html>
